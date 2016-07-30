@@ -1,0 +1,293 @@
+/*!
+ * Kokothemes v1.0 (http://kokothemes.com)
+ * Copyright 2016 KOKOTHEMES.COM
+ * Author - Santanu Samanta
+ */
+/*! kokothemes.css | kokothemes.com */
+
+/* overflow*/
+html {
+	overflow-x: hidden;
+}
+/* Hero Background One */
+.hero-background-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.35)), url(../img/blueberry.jpg) no-repeat center center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 75px;
+  margin-bottom: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.manta-text {
+  padding: 325px 20px 5px 20px;
+  font-size: 80px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.ava-text {
+  padding: 0px 20px 10px 25px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.btn-position {
+  margin: 0px 25px;
+}
+/* Manta special button */
+.mantabtn {
+  display: inline-block;
+  padding: 14px 16px;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  /* vertical-align: middle; */
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 2px solid transparent;
+  border-radius: 0px;
+}
+.mantabtn-default {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+a {
+  outline: none;
+}
+a.mantabtn-default:hover,
+a.mantabtn-default:focus {
+  text-decoration: none;
+  outline: none;
+  color: #333;
+  background: #ffffff;
+}
+.abitlower {
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+.keepitnice {
+  padding: 25px 10px 30px 10px;
+}
+.koko-guide-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #7a787a;
+  padding: 30px 0px 10px 0px;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+.hero-background-two {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.popular-food {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+.popular-food:hover,
+.popular-food:focus {
+  border: 2px solid #222;
+  background-color: #ffffff;
+}
+.popular-text {
+  padding: 25px;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fe1f59;
+}
+.about-app {
+  padding: 125px 25px 0px 25px;
+  color: #565a5c;
+  font-weight: 700;
+}
+.post-abt-text {
+  padding: 30px 25px 130px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #565a5c;
+  font-size: 26px;
+}
+.side-text {
+  padding: 30px 25px 25px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #565a5c;
+  font-size: 26px;
+}
+.nic-pad {
+  padding-top: 75px;
+  color: #fff;
+}
+.app-bg {
+  background: #222;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+}
+.b-pad {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.bgk-2 {
+  background: url(../img/moc.jpg) no-repeat center center;
+  width: 100%;
+  height: auto;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  margin-bottom: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bpad-bk {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../img/food15a.jpg) no-repeat center center;
+  width: 100%;
+  height: auto;
+  padding-top: 95px;
+  margin-bottom: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+/* Button */
+.pbtn {
+  margin-left: 20px;
+  padding: 12px 14px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+.btn-blacky {
+  color: #555; 
+  background-color: transparent;
+  border-color: #555; 
+}
+.btn-blacky:focus,
+.btn-blacky.focus {
+  color: #ffffff;
+  background-color: #555; 
+  border-color: #ffffff;
+}
+.btn-blacky:hover {
+  color: #ffffff;
+  background-color: #555; 
+  border-color: #ffffff;
+}
+.btn-blacky:active,
+.btn-blacky.active,
+.open > .dropdown-toggle.btn-default {
+  color: #ffffff;
+  background-color: #555; 
+  border-color: #ffffff;
+} /* End Btn */
+
+.he-4 {
+  padding: 20px 0px 10px 0px;
+  color: #565a5c;
+  font-weight: 700;
+}
+.hero-background-three {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: auto; 
+}
+.be-text {
+  padding: 70px 20px 20px 20px;
+  font-weight: 700;
+  color: #565a5c;
+  font-size: 32px;
+}
+.be-text-2 {
+  padding: 10px 20px 50px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #565a5c;
+  font-size: 22px;
+}
+.ext-margin {
+  margin-bottom: 75px;
+}
+.quest-text-2 {
+  padding: 60px 20px 5px 20px;
+  font-size: 86px;
+  color: #555;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* hr srtyle */
+hr.style-1 { 
+  border-top: 5px solid #fe1f59;
+  width: 45px;
+  padding-bottom: 20px;
+}
+.he-3 {
+  padding: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5em;
+}
+.about-us {
+  padding: 60px 20px 70px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #565a5c;
+  font-size: 32px;
+}
+.pre-foo {
+  padding: 10px 20px 25px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #565a5c;
+  font-size: 24px;
+}
+.background-footer {
+  background-color: #292929;
+  padding: 20px 10px;
+}
+.footer-text-quest {
+  padding: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer-text-link {
+  padding-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
+}
+a.footer-text-link:hover,
+a.footer-text-link:focus {
+  color: #ffffff;
+}
+.padin-zero {
+  padding: 0px;
+}
